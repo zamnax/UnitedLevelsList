@@ -1,0 +1,18 @@
+{
+    "id": 110816181,
+    "name": "BOOBAWAMBA",
+    "author": "Akunakunn",
+    "creators": [],
+    "verifier": "eastshark",
+    "verification": "https://www.youtube.com/watch?v=20fYiqLAo_E",
+    "percentToQualify": 63,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "agonom",
+            "link": "https://www.youtube.com/watch?v=GDfQRPolD1k",
+            "percent": 63,
+            "hz": 240
+        }
+    ]
+}
