@@ -8,5 +8,29 @@
     "percentToQualify": 68,
     "password": "Free To Copy",
     "records": [
+        {
+            "user": "spookkd",
+            "link": "https://www.youtube.com/watch?v=co4SRNnsf1Y",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Adri420",
+            "link": "https://www.youtube.com/watch?v=nknW-sWVvSY",
+            "percent": 78,
+            "hz": 240
+        },
+        {
+            "user": "whfyre",
+            "link": "https://www.youtube.com/watch?v=CYWgAX0zG5s",
+            "percent": 77,
+            "hz": 240
+        },
+        {
+            "user": "ralex",
+            "link": "https://www.youtube.com/watch?v=hRUAGZmDn1k",
+            "percent": 71,
+            "hz": 360
+        }
     ]
 }
