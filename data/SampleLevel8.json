@@ -1,0 +1,42 @@
+{
+    "id": 116174063,
+    "name": "Every End",
+    "author": "Mindcap",
+    "creators": [],
+    "verifier": "Hqmy",
+    "verification": "https://www.youtube.com/watch?v=AO--mVVFtKI",
+    "percentToQualify": 67,
+    "password": "Free To Copy",
+    "records": [
+        {
+            "user": "Zoink",
+            "link": "https://www.youtube.com/watch?v=ZyRmgwSh5tQ",
+            "percent": 100,
+            "hz": 360
+        },
+        {
+            "user": "Garbagee",
+            "link": "https://www.youtube.com/watch?v=K5BRT1tMycQ",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Stefan Boss",
+            "link": "https://www.youtube.com/watch?v=kMIzs6AzGZM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "N3bulA",
+            "link": "https://www.youtube.com/watch?v=5s-ohIid6QM",
+            "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "PlusrMinus",
+            "link": "https://www.youtube.com/watch?v=gXUwH1NNIYc",
+            "percent": 100,
+            "hz": 240
+        }
+    ]
+}
