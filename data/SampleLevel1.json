@@ -1,11 +1,13 @@
-{
-  "id": 57436521,
-  "name": "Thinking Space II",
-  "author": "CairoX",
-  "creators": ["CairoX"],
-  "verifier": "Zoink",
-  "verification": "https://www.youtube.com/watch?v=CELNmHwln_c&pp=ygUJem9pbmsgdHMy",
-  "percentToQualify": 79,
-  "password": "Free Copy",
-  "records": []
-}
+[
+  {
+    "id": 57436521,
+    "name": "Thinking Space II",
+    "author": "CairoX",
+    "creators": ["CairoX"],
+    "verifier": "Zoink",
+    "verification": "https://www.youtube.com/watch?v=CELNmHwln_c",
+    "percentToQualify": 79,
+    "password": "Free Copy",
+    "records": []
+  }
+]
