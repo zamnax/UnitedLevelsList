@@ -8,6 +8,13 @@
     "verification": "https://www.youtube.com/watch?v=CELNmHwln_c",
     "percentToQualify": 79,
     "password": "Free Copy",
-    "records": []
+    "records": [
+      {
+        "user": "Sample_Player",
+        "link": "https://www.youtube.com/watch?v=CELNmHwln_c",
+        "percent": 100,
+        "hz": 240
+      }
+    ]
   }
 ]
