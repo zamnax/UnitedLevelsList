@@ -5,13 +5,19 @@
     "creators": [],
     "verifier": "Zoink",
     "verification": "https://www.youtube.com/watch?v=CELNmHwln_c",
-    "percentToQualify": 79,
+    "percentToQualify": 57,
     "password": "Free To Copy",
     "records": [
         {
             "user": "wPopoff",
             "link": "https://www.youtube.com/watch?v=1lxVL8JZCsw",
             "percent": 100,
+            "hz": 240
+        },
+        {
+            "user": "Trick",
+            "link": "https://x.com/GmdTrick/status/1982893755855450443",
+            "percent": 57,
             "hz": 240
         }
     ]
