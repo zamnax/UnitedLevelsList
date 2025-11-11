@@ -85,9 +85,6 @@ export default {
                     <div class="errors" v-show="errors.length > 0">
                         <p class="error" v-for="error of errors">{{ error }}</p>
                     </div>
-                    <div class="og">
-                        <p class="type-label-md">Website layout made by <a href="https://tsl.pages.dev/" target="_blank">TheShittyList</a></p>
-                    </div>
                     <template v-if="editors">
                         <h3>List Editors</h3>
                         <ol class="editors">
@@ -144,7 +141,6 @@ export default {
             if (!this.level.showcase) {
                 return embed(this.level.verification);
             }
-
             return embed(
                 this.toggledShowcase
                     ? this.level.showcase
@@ -153,22 +149,16 @@ export default {
         },
     },
     async mounted() {
-        // Hide loading spinner
         this.list = await fetchList();
         this.editors = await fetchEditors();
 
-        // Error handling
         if (!this.list) {
-            this.errors = [
-                "Failed to load list. Retry in a few minutes or notify list staff.",
-            ];
+            this.errors = ["Failed to load list. Retry in a few minutes or notify list staff."];
         } else {
             this.errors.push(
                 ...this.list
                     .filter(([_, err]) => err)
-                    .map(([_, err]) => {
-                        return `Failed to load level. (${err}.json)`;
-                    })
+                    .map(([_, err]) => `Failed to load level. (${err}.json)`)
             );
             if (!this.editors) {
                 this.errors.push("Failed to load list editors.");
